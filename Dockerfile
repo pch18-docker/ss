@@ -9,6 +9,7 @@ COPY run.sh /run.sh
 RUN apk update -y && \
     apk add py-pip && \
     pip install --upgrade pip && \
-    pip install shadowsocks
+    pip install shadowsocks && \
+    chmod +x /run.sh
 
-CMD /bin/sh /run.sh
+CMD /run.sh
