@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.8
 MAINTAINER pch18.cn
 
 ENV METHOD=aes-256-cfb
