@@ -4,7 +4,7 @@ MAINTAINER pch18.cn
 ENV METHOD=aes-256-cfb
 ENV P_20001=password
 
-COPY ss.run.sh /run.sh
+COPY run.sh /run.sh
 
 RUN apk update -y && \
     apk add py-pip && \
